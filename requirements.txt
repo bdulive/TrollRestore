@@ -1,5 +1,9 @@
-pymobiledevice3
+# pymobiledevice3 7.0+ removed cli_common.Command and moved to an async API
+pymobiledevice3<7
+# construct-typing 0.8 rejects pymobiledevice3 6.x's AFC dataclasses
+construct-typing<0.8
 bpylist2
 rich
 requests
 click
+packaging
